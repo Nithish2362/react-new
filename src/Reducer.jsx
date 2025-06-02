@@ -35,8 +35,7 @@ import React, { useReducer } from 'react'
             onClick={() => despatch({ type: 'DELETE', payload: item.id })}>delete</button>
             <button  onClick={() => despatch({ type: 'UPDATE', payload: { id: item.id, newname: prompt('enter new name', item.name)}})}>Update</button></li>)}
         </ul>
-        <div>nk</div>
-     
+       
     </div>
   )
 }
